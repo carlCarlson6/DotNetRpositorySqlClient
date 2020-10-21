@@ -25,16 +25,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Entities.dll": {}
-        }
       }
     }
   },
@@ -181,16 +171,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "Entities/1.0.0": {
-      "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Entities >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -201,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
-      "projectName": "Core",
-      "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
+      "projectUniqueName": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj",
+      "projectName": "Entities",
+      "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\obj\\",
+      "outputPath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -221,11 +205,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {
-            "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj": {
-              "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

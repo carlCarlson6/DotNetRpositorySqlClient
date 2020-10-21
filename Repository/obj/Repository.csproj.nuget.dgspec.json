@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj": {}
+    "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj": {}
   },
   "projects": {
     "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj": {
@@ -104,6 +104,78 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
+        "projectName": "Repository",
+        "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
+        "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
+        "outputPath": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj": {
+                "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
             }
           },
           "imports": [
