@@ -12,11 +12,7 @@ namespace Repository
     public class SqlProductRepository : IProductRepository
     {
         private SqlConnection connection;
-        private ISerchCriteriaConstructor<String> sqlCriteriaConstructor = new SqlCriteriaConstructor();
-        public SqlProductRepository(String sqlServerConnectionString)
-        {
-            this.connection = SqlServerConnection.GetConnection(sqlServerConnectionString);
-        }
+        public SqlProductRepository(String sqlServerConnectionString) => this.connection = SqlServerConnection.GetConnection(sqlServerConnectionString);
 
         public async Task<int> Add(Product entity)
         {
@@ -50,7 +46,7 @@ namespace Repository
 
         public async Task<IList<Product>> SearchByCreteria(SearchCriteria criteria)
         {
-            String query = this.sqlCriteriaConstructor.Construct(criteria, "Products");
+            String query = criteria.ToString();
             IList<Product> products = (await connection.QueryAsync<Product>(query)).ToList();
             throw new NotImplementedException();
         }
