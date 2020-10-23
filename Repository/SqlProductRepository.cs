@@ -5,16 +5,14 @@ using System.Threading.Tasks;
 using Core;
 using Dapper;
 using System.Linq;
+using Criteria;
 
 namespace Repository
 {
     public class SqlProductRepository : IProductRepository
     {
         private SqlConnection connection;
-        public SqlProductRepository(String sqlServerConnectionString)
-        {
-            this.connection = SqlServerConnection.GetConnection(sqlServerConnectionString);
-        }
+        public SqlProductRepository(String sqlServerConnectionString) => this.connection = SqlServerConnection.GetConnection(sqlServerConnectionString);
 
         public async Task<int> Add(Product entity)
         {
@@ -45,5 +43,13 @@ namespace Repository
             int resultCode = await this.connection.ExecuteAsync(ProductQueries.Update, entity);
             return resultCode;
         }
+
+        public async Task<IList<Product>> SearchByCreteria(SearchCriteria criteria)
+        {
+            String query = criteria.ToString();
+            IList<Product> products = (await connection.QueryAsync<Product>(query)).ToList();
+            throw new NotImplementedException();
+        }
+
     }
 }

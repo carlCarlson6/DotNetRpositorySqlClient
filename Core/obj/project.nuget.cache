@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZS5kWg1i18CamLXFYyyjoSb65jl2dI7MdGU1mrck/zUXkxG+aQI1D7B7nOnCEXGqaxDxOqziuFz7TcdxOufxBg==",
+  "dgSpecHash": "Gl7JHCiUkDVPDfEr+H7BFnZNQV7ZtZfaPSrXz1BAYApL74ZFNOO4gwkUjDmJx04vByXtV9e3NRL/ybIPylfYVg==",
   "success": true,
-  "projectFilePath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
+  "projectFilePath": "C:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

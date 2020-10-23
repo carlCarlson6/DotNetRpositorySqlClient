@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj",
-      "projectName": "Entities",
-      "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj",
+      "projectName": "Criteria",
+      "projectPath": "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\obj\\",
+      "outputPath": "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

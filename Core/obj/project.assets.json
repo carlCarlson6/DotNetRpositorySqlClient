@@ -26,14 +26,14 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Entities/1.0.0": {
+      "Criteria/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Criteria.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Criteria.dll": {}
         }
       }
     }
@@ -182,15 +182,15 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Entities/1.0.0": {
+    "Criteria/1.0.0": {
       "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
+      "path": "../Criteria/Criteria.csproj",
+      "msbuildProject": "../Criteria/Criteria.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Entities >= 1.0.0",
+      "Criteria >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -201,11 +201,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
+      "projectPath": "C:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\obj\\",
+      "outputPath": "C:\\dev\\DotNetRpositorySqlClient\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -222,8 +222,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj": {
-              "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj"
+            "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj": {
+              "projectPath": "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj"
             }
           }
         }

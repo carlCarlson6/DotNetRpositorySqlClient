@@ -7,10 +7,7 @@ namespace Repository
     public class SqlServerConnection
     {
         private static SqlConnection instance; 
-        private SqlServerConnection()
-        {
-
-        }
+        private SqlServerConnection() { }
 
         public static SqlConnection GetConnection(String connectionStr)
         {

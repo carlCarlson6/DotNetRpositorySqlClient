@@ -4,7 +4,7 @@ using Criteria;
 
 namespace Core
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface ICustomerRepository : IRepository<Customer>
     {
         Task<IList<Product>> SearchByCreteria(SearchCriteria criteria);
     }
