@@ -292,7 +292,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Entities": "1.0.0"
+          "Criteria": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Core.dll": {}
@@ -301,14 +301,14 @@
           "bin/placeholder/Core.dll": {}
         }
       },
-      "Entities/1.0.0": {
+      "Criteria/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "compile": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Criteria.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Entities.dll": {}
+          "bin/placeholder/Criteria.dll": {}
         }
       }
     }
@@ -1126,15 +1126,16 @@
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
     },
-    "Entities/1.0.0": {
+    "Criteria/1.0.0": {
       "type": "project",
-      "path": "../Entities/Entities.csproj",
-      "msbuildProject": "../Entities/Entities.csproj"
+      "path": "../Criteria/Criteria.csproj",
+      "msbuildProject": "../Criteria/Criteria.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Core >= 1.0.0",
+      "Criteria >= 1.0.0",
       "Dapper >= 2.0.35",
       "Microsoft.Extensions.Configuration >= 3.1.9",
       "NETStandard.Library >= 2.0.3",
@@ -1148,11 +1149,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
+      "projectPath": "C:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\obj\\",
+      "outputPath": "C:\\dev\\DotNetRpositorySqlClient\\Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1169,8 +1170,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj": {
-              "projectPath": "c:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj"
+            "C:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj": {
+              "projectPath": "C:\\dev\\DotNetRpositorySqlClient\\Core\\Core.csproj"
+            },
+            "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj": {
+              "projectPath": "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj"
             }
           }
         }

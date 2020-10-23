@@ -5,17 +5,17 @@ namespace Criteria
     {
         private String field;
         private String operatorFilter;
-        private ValueFilter value;
+        private ValueFilter valueFilter;
 
-        public String Field { get => this.Field; }
+        public String Field { get => this.field; }
         public String OperatorFilter { get => this.operatorFilter; }
-        public String Value { get => this.value; }
+        public ValueFilter ValueFilter { get => this.valueFilter; }
 
-        public Filter(String field, String operatorFilter, ValueFilter value)
+        public Filter(String field, String operatorFilter, ValueFilter valueFilter)
         {
             this.field = field;
             this.operatorFilter = operatorFilter;
-            this.value = value;
+            this.valueFilter = valueFilter;
         }  
     }
 }

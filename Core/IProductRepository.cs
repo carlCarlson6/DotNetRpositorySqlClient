@@ -1,10 +1,11 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Criteria;
 
 namespace Core
 {
     public interface IProductRepository : IRepository<Product>
     {
-        List<Product> SearchByCreteria(SearchCriteria criteria);
+        Task<IList<Product>> SearchByCreteria(SearchCriteria criteria);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1uLofQVzAjJMxQviwTMsv2rlutbiylXHcf7wIWrRcAho/iAeT1y2SoWi2si1GvXDkuX8E8ORypEnrKJsrwjFFQ==",
+  "dgSpecHash": "nZxEXbq+4WUz0ViOSnDufGTc2N7yay3dV8zJT/lBk7XpwLs8hxSvduI5udbd+S1Bxvb/GkQmTAm58O81eYWLxA==",
   "success": true,
-  "projectFilePath": "c:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
+  "projectFilePath": "C:\\dev\\DotNetRpositorySqlClient\\Repository\\Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",
