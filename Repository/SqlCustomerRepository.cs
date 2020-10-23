@@ -10,7 +10,7 @@ namespace Repository
     {
         public Task<int> Add(Customer entity)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException("not implemented");
         }
 
         public Task<int> Delete(string id)
