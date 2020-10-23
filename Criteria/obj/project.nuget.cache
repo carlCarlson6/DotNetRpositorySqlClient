@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1hyTNHSDAvcpI3jRSbv8RvlJCo6YHN2VETCHrS8bss/8GQW9QmsrwsskbMyZGqHK5iMNuNhJw7ZYlG8xVdS0HA==",
+  "dgSpecHash": "5WLxM6Re4TYJMzHtMSmXe5cIVz7GJiQ2T/bIbjhiI7EGV3fet1x5ehmznvNFKmNjuBU1N0ZhxfAmLzXvV//tyA==",
   "success": true,
-  "projectFilePath": "c:\\dev\\DotNetRpositorySqlClient\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\dev\\DotNetRpositorySqlClient\\Criteria\\Criteria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
