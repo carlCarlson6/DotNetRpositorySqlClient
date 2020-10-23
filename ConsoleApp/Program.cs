@@ -9,17 +9,23 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            List<Filter> productoFilters = new List<Filter>()
+            //Console.WriteLine("--------------------------------");
+            //List<Filter> productoFilters = new List<Filter>()
+            //{
+            //    new Filter("Name", OperatorFilter.Equal, new ValueFilter("Juan")),
+            //    new Filter("Price", OperatorFilter.GreaterThan, new ValueFilter("32.5")),
+            //};
+            //SearchCriteria productCriteria = new SearchCriteria("Products", productoFilters);
+            //Console.WriteLine(productCriteria.ToString());
+            
+            Console.WriteLine("--------------------------------");
+            List<Filter> customerFilters = new List<Filter>()
             {
                 new Filter("Name", OperatorFilter.Equal, new ValueFilter("Juan")),
-                new Filter("Price", OperatorFilter.GreaterThan, new ValueFilter("32.5")),
+                new Filter("City", OperatorFilter.GreaterThan, new ValueFilter("Valencia")),
             };
-
-            SearchCriteria productCriteria = new SearchCriteria("Products", productoFilters);
-            Console.WriteLine(criteria.ToString());
-
-            Console.WriteLine("--------------------------------");
-
+            SearchCriteria productCriteria = new SearchCriteria("Customers", customerFilters);
+            Console.WriteLine(productCriteria.ToString());
         }
 
     }
