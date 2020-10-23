@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Core;
 using Dapper;
 using System.Linq;
+using Criteria;
 
 namespace Repository
 {
@@ -45,5 +46,11 @@ namespace Repository
             int resultCode = await this.connection.ExecuteAsync(ProductQueries.Update, entity);
             return resultCode;
         }
+
+        public List<Product> SearchByCreteria(SearchCriteria criteria)
+        {
+            throw new NotImplementedException();
+        }
+
     }
 }
