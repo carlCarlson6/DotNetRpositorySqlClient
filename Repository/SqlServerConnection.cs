@@ -21,7 +21,6 @@ namespace Repository
                 _conn = instance;
             }
 
-            _conn.Open();
             return _conn;
         }
     }
